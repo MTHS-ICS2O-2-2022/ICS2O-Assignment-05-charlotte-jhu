@@ -14,7 +14,7 @@ function myButtonClicked() {
 // process
   while (positiveInteger > 1) {
     if (positiveInteger%2 == 0) {
-      positiveInteger = positiveInteger / 2
+      positiveInteger /= 2
       document.getElementById("answer").innerHTML = positiveInteger
     } else {
       positiveInteger = positiveInteger * 3 + 1
