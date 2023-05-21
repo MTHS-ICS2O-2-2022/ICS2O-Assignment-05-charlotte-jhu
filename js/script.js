@@ -21,7 +21,4 @@ function myButtonClicked() {
       document.getElementById("answer").innerHTML = positiveInteger
     }
   }
-
-// output
-  document.getElementById("answer").innerHTML = positiveInteger
 }
