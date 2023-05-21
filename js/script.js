@@ -13,7 +13,7 @@ function myButtonClicked() {
 
 // process
   while (positiveInteger > 1) {
-    if (positiveInteger / 2 == 0) {
+    if (positiveInteger%2 == 0) {
       positiveInteger = positiveInteger / 2
       document.getElementById("answer").innerHTML = positiveInteger
     } else {
