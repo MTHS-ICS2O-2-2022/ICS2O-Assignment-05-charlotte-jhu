@@ -27,7 +27,7 @@ func main() {
 			positiveInteger /= 2
 			fmt.Println(positiveInteger)
 		} else {
-			positiveInteger = positiveInteger * 3 + 1
+			positiveInteger = positiveInteger*3 + 1
 			fmt.Println(positiveInteger)
 		}
 	}
