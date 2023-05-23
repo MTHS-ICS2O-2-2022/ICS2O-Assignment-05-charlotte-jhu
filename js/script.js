@@ -15,10 +15,12 @@ function myButtonClicked() {
   while (positiveInteger > 1) {
     if (positiveInteger%2 == 0) {
       positiveInteger /= 2
-      document.getElementById("answer").innerHTML = positiveInteger
+      document.getElementById("answer").innerHTML = document.getElementById("answer").innerHTML + positiveInteger + "\n"
+      console.log(positiveInteger)
     } else {
       positiveInteger = positiveInteger * 3 + 1
-      document.getElementById("answer").innerHTML = positiveInteger
+      document.getElementById("answer").innerHTML = document.getElementById("answer").innerHTML + positiveInteger + "\n"
+      console.log(positiveInteger)
     }
   }
 }
